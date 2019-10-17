@@ -136,5 +136,5 @@ func main() {
 		}
 	}
 
-	fmt.Printf("%f%%\n", float64(correct)/float64(len(predicted)))
+	fmt.Printf("%f%%\n", float64(correct)/float64(len(predicted))*100)
 }
